@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publicador de Noticias - Estilo Netflix</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Publicador de Noticias</h1>
+        
+        <form id="newsForm">
+            <input type="text" id="author" placeholder="Nombre del autor" required>
+            <input type="text" id="date" placeholder="Fecha (DD/MM/AAAA)" required>
+            <textarea id="content" placeholder="Contenido de la noticia" required></textarea>
+            <label>Color de texto:
+                <input type="color" id="textColor" value="#000000">
+            </label>
+            <label>Tamaño de texto:
+                <input type="number" id="textSize" value="16" min="10" max="30"> px
+            </label>
+            <button type="submit">Publicar Noticia</button>
+        </form>
+
+        <div id="newsContainer" class="news-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
